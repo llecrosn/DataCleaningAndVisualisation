@@ -1,0 +1,773 @@
+execution:
+    uuid: 1be75065-e498-4add-aab1-a956b30b1b38
+    runtime:
+        start: 2022-02-16T12:05:55.541725-08:00
+        end: 2022-02-16T12:11:12.364255-08:00
+        duration: 5 minutes, 16 seconds, and 822530 microseconds
+
+action:
+    type: import
+    format: CasavaOneEightSingleLanePerSampleDirFmt
+    manifest:
+    -   name: BC_C1_D1_F_S6_L001_R1_001.fastq.gz
+        md5sum: 5dbdf11f0192c01e7ff625e660a60ac1
+    -   name: BC_C1_D1_F_S6_L001_R2_001.fastq.gz
+        md5sum: dfcd60b512359f3c9dbd4a43a4442067
+    -   name: BC_C1_D2_F_S3_L001_R1_001.fastq.gz
+        md5sum: d2d63897b648f16130966a5391b57459
+    -   name: BC_C1_D2_F_S3_L001_R2_001.fastq.gz
+        md5sum: 74e7a64d9325e24654afe4a0c70bffda
+    -   name: BC_C1_D3_F_S27_L001_R1_001.fastq.gz
+        md5sum: 5c06385ff00c640a8bb283181f7726ba
+    -   name: BC_C1_D3_F_S27_L001_R2_001.fastq.gz
+        md5sum: 912efe76b7679225086b7b881b70578a
+    -   name: BC_C1_S1_F_S12_L001_R1_001.fastq.gz
+        md5sum: 95c88459b2df34689c6e691ece7372ce
+    -   name: BC_C1_S1_F_S12_L001_R2_001.fastq.gz
+        md5sum: 1624e6559f3aa86556adec2449d8206f
+    -   name: BC_C1_S2_F_S26_L001_R1_001.fastq.gz
+        md5sum: 53d529ebeddabb28a8f9db1a30e2b312
+    -   name: BC_C1_S2_F_S26_L001_R2_001.fastq.gz
+        md5sum: 5e6722a1ba023fbbb09556b75350345f
+    -   name: BC_C1_S3_F_S14_L001_R1_001.fastq.gz
+        md5sum: 7f3293a0fb2a8db02a333f98cc1c4ccb
+    -   name: BC_C1_S3_F_S14_L001_R2_001.fastq.gz
+        md5sum: d8ff3c7422d1cca91baeecb555043a9b
+    -   name: BC_C2_D1_F_S18_L001_R1_001.fastq.gz
+        md5sum: 0b99c0e7d9de893c7d763080103dcc03
+    -   name: BC_C2_D1_F_S18_L001_R2_001.fastq.gz
+        md5sum: f06a14aca59d156f5ce342d12d9e45ed
+    -   name: BC_C2_D2_F_S5_L001_R1_001.fastq.gz
+        md5sum: 99cf455d7327eae95429e2826ef605c4
+    -   name: BC_C2_D2_F_S5_L001_R2_001.fastq.gz
+        md5sum: b7df85dc683c9fcc1aa8b053b33af85d
+    -   name: BC_C2_D3_F_S35_L001_R1_001.fastq.gz
+        md5sum: 47ef58aad4da1aa4f762bf449b5fc9b8
+    -   name: BC_C2_D3_F_S35_L001_R2_001.fastq.gz
+        md5sum: 5a1ce888ffc94fb87f4d906f2eb7bb18
+    -   name: BC_C2_S1_F_S9_L001_R1_001.fastq.gz
+        md5sum: 951dd19ec95b1cd7392a4876814e99a0
+    -   name: BC_C2_S1_F_S9_L001_R2_001.fastq.gz
+        md5sum: 896058aaf3dd4847142b6afc1080871a
+    -   name: BC_C2_S2_F_S44_L001_R1_001.fastq.gz
+        md5sum: 3ab7efd6afa6b99bbb764ac23957257a
+    -   name: BC_C2_S2_F_S44_L001_R2_001.fastq.gz
+        md5sum: 9338aded7c272b65dce32f487f631d44
+    -   name: BC_C2_S3_F_S10_L001_R1_001.fastq.gz
+        md5sum: bc3d9ce0f830721b78bee410ee9e15ea
+    -   name: BC_C2_S3_F_S10_L001_R2_001.fastq.gz
+        md5sum: 0f0426498c0a8462a8bf272f9769fa8e
+    -   name: BC_C3_D1_F_S45_L001_R1_001.fastq.gz
+        md5sum: 950b70c6f77c42dba011a5731dad60ad
+    -   name: BC_C3_D1_F_S45_L001_R2_001.fastq.gz
+        md5sum: db14e89da159d0e170853182ac6cd688
+    -   name: BC_C3_D2_F_S19_L001_R1_001.fastq.gz
+        md5sum: 5c4867cbcbbc047cc38149a41cefdeaf
+    -   name: BC_C3_D2_F_S19_L001_R2_001.fastq.gz
+        md5sum: 32e95dc16cf7eda62275aaab1716131c
+    -   name: BC_C3_S1_F_S28_L001_R1_001.fastq.gz
+        md5sum: ef8c2922e7ef981ca436404b862d4651
+    -   name: BC_C3_S1_F_S28_L001_R2_001.fastq.gz
+        md5sum: e1f28fb433031129ba7bb082b1b8004b
+    -   name: BC_C3_S2_F_S49_L001_R1_001.fastq.gz
+        md5sum: 2d4158c98e2b0caec88fd01cbc92c3be
+    -   name: BC_C3_S2_F_S49_L001_R2_001.fastq.gz
+        md5sum: 7b52718a04d095ceb97a4fb9af500d8a
+    -   name: BC_C3_S3_F_S8_L001_R1_001.fastq.gz
+        md5sum: edf0cabbffd0dbb8f10a11554d131cc1
+    -   name: BC_C3_S3_F_S8_L001_R2_001.fastq.gz
+        md5sum: 9f4eeb0fc6e023874dbaefa2ce5bf25b
+    -   name: BC_C4_D1_F_S1_L001_R1_001.fastq.gz
+        md5sum: 54d0a1007abcb8572f9e70ec56c1ea0c
+    -   name: BC_C4_D1_F_S1_L001_R2_001.fastq.gz
+        md5sum: bd137e10f5fdac07a0f2a48ce97d1cad
+    -   name: BC_C4_D2_F_S15_L001_R1_001.fastq.gz
+        md5sum: 55bc2235b5a5c537b0174a2d7104abe9
+    -   name: BC_C4_D2_F_S15_L001_R2_001.fastq.gz
+        md5sum: 367c86e088d5e05b96d3e7caf002fe42
+    -   name: BC_C4_D3_F_S7_L001_R1_001.fastq.gz
+        md5sum: 2ab899c12c128aa4ff930ed66de09c7f
+    -   name: BC_C4_D3_F_S7_L001_R2_001.fastq.gz
+        md5sum: fce75dc1e8c71a12b2ef325ec0d6debd
+    -   name: BC_C4_S1_F_S50_L001_R1_001.fastq.gz
+        md5sum: 4af9664e91d5d692dc9f0ca39ed8141e
+    -   name: BC_C4_S1_F_S50_L001_R2_001.fastq.gz
+        md5sum: d84a48009881badd22c0628fc13e242d
+    -   name: BC_C4_S2_F_S20_L001_R1_001.fastq.gz
+        md5sum: 49e6e8b7cbbd0bf97f10eb8ca81e6bc6
+    -   name: BC_C4_S2_F_S20_L001_R2_001.fastq.gz
+        md5sum: e5c1582131800b860a6ea3dc71dfa5f2
+    -   name: BC_C4_S3_F_S21_L001_R1_001.fastq.gz
+        md5sum: 00adbd4c8e8a64cfef826e65779eac87
+    -   name: BC_C4_S3_F_S21_L001_R2_001.fastq.gz
+        md5sum: ba1d4a2e8330d62f246486a28547d017
+    -   name: BC_H1_D3_F_S31_L001_R1_001.fastq.gz
+        md5sum: 778ccaeede3dba37f25bd87665d5b691
+    -   name: BC_H1_D3_F_S31_L001_R2_001.fastq.gz
+        md5sum: c62464cddb29a1cab06754a1f1559c7c
+    -   name: BC_H1_S2_F_S46_L001_R1_001.fastq.gz
+        md5sum: 19f2e1349ab6cf1ad2e9caa4d5ed3039
+    -   name: BC_H1_S2_F_S46_L001_R2_001.fastq.gz
+        md5sum: 93cce8e50270ef992f1c1f7fc38c7928
+    -   name: BC_H2_D1_F_S47_L001_R1_001.fastq.gz
+        md5sum: 58a7fdda5ef35aaf527ae4a829c68868
+    -   name: BC_H2_D1_F_S47_L001_R2_001.fastq.gz
+        md5sum: 9607dda684d6f479d46e406a75311132
+    -   name: BC_H2_D2_F_S30_L001_R1_001.fastq.gz
+        md5sum: 35174a4ce9dafef8ec613976a71a7909
+    -   name: BC_H2_D2_F_S30_L001_R2_001.fastq.gz
+        md5sum: 08d42dc40722eabcde6a63f1ee373705
+    -   name: BC_H2_D3_F_S29_L001_R1_001.fastq.gz
+        md5sum: afca3ede478b0d4219ebd06db0c48c3a
+    -   name: BC_H2_D3_F_S29_L001_R2_001.fastq.gz
+        md5sum: 179149309d02aa998827049f0f58cf7d
+    -   name: BC_H2_S2_F_S37_L001_R1_001.fastq.gz
+        md5sum: 49495d6d1d14732bab3a27bff0d9395b
+    -   name: BC_H2_S2_F_S37_L001_R2_001.fastq.gz
+        md5sum: 1a8513a0a3eea60d6d9d982c5be9106c
+    -   name: BC_H2_S3_F_S16_L001_R1_001.fastq.gz
+        md5sum: ee3282c14f2093e28d5e9cacc7032cc6
+    -   name: BC_H2_S3_F_S16_L001_R2_001.fastq.gz
+        md5sum: 711355372520b8af4b436b00710464aa
+    -   name: BC_H3_D2_F_S43_L001_R1_001.fastq.gz
+        md5sum: e7b9e8dd5ecafb222a4fcfc34067c7ac
+    -   name: BC_H3_D2_F_S43_L001_R2_001.fastq.gz
+        md5sum: 1e0f1157ae7d12059b79259ab3d0b2be
+    -   name: BC_H3_S2_F_S38_L001_R1_001.fastq.gz
+        md5sum: 042e39328b2c0035e79083058ad04c1a
+    -   name: BC_H3_S2_F_S38_L001_R2_001.fastq.gz
+        md5sum: bca5b300b754035eb8b6939bd92324cd
+    -   name: BC_H3_S3_F_S22_L001_R1_001.fastq.gz
+        md5sum: bb10d9ff30fe077d2b3102310fa0101b
+    -   name: BC_H3_S3_F_S22_L001_R2_001.fastq.gz
+        md5sum: 8a48983408faa769cd73e8e457f4efb3
+    -   name: BC_L1_S1_F_S32_L001_R1_001.fastq.gz
+        md5sum: 12c687b099b4d8a0cd457a65670b0db3
+    -   name: BC_L1_S1_F_S32_L001_R2_001.fastq.gz
+        md5sum: 7e354cd7f6c1b653d39cffb19e7042d2
+    -   name: BC_L1_S2_F_S33_L001_R1_001.fastq.gz
+        md5sum: 3a3cfcb2e9d5c707092875edafad1052
+    -   name: BC_L1_S2_F_S33_L001_R2_001.fastq.gz
+        md5sum: 902efc66196221eba78cdaa7499a1825
+    -   name: BC_L1_S3_F_S39_L001_R1_001.fastq.gz
+        md5sum: f19a573a919c5e8e3a4bed7e476b50f5
+    -   name: BC_L1_S3_F_S39_L001_R2_001.fastq.gz
+        md5sum: 05b9cb76f4dc60cfb6de0e6ec87becb6
+    -   name: BC_L2_S1_F_S40_L001_R1_001.fastq.gz
+        md5sum: d4cc2e0899df120f960829e8c19d7f21
+    -   name: BC_L2_S1_F_S40_L001_R2_001.fastq.gz
+        md5sum: 65b8edcac63ace271c53f9591415e4be
+    -   name: BC_L2_S2_F_S23_L001_R1_001.fastq.gz
+        md5sum: 02f7165f4bf048fbfdd9863ec8417422
+    -   name: BC_L2_S2_F_S23_L001_R2_001.fastq.gz
+        md5sum: b70e6ff826fdbfa5c579432eba6df8f2
+    -   name: BC_L2_S3_F_S41_L001_R1_001.fastq.gz
+        md5sum: 8b7b121a815a1b146e45728ae7ae39de
+    -   name: BC_L2_S3_F_S41_L001_R2_001.fastq.gz
+        md5sum: 63d6be2411472293cb523c199d6c061f
+    -   name: BC_L3_D1_F_S24_L001_R1_001.fastq.gz
+        md5sum: 2a2140ac16d1d92fe061efabc8cccc12
+    -   name: BC_L3_D1_F_S24_L001_R2_001.fastq.gz
+        md5sum: 2f471883e602be2d9345da40f3bd0ee3
+    -   name: BC_L3_D2_F_S48_L001_R1_001.fastq.gz
+        md5sum: ddfab42800d7333e1c6c5527b489bed6
+    -   name: BC_L3_D2_F_S48_L001_R2_001.fastq.gz
+        md5sum: 2f5c62e6d10b75016c9ac21a236f83d3
+    -   name: BC_L3_S1_F_S42_L001_R1_001.fastq.gz
+        md5sum: 29d8923f5a1bd9b9cd68d12d85e8e31a
+    -   name: BC_L3_S1_F_S42_L001_R2_001.fastq.gz
+        md5sum: e171bb4e4111c7414d62fc48f94ed83f
+    -   name: BC_L3_S2_F_S2_L001_R1_001.fastq.gz
+        md5sum: 15579555de4d194ba3e9c0882f1206f3
+    -   name: BC_L3_S2_F_S2_L001_R2_001.fastq.gz
+        md5sum: f4a382a1cd97aea0a54d80ad918c130e
+    -   name: BC_L3_S3_F_S4_L001_R1_001.fastq.gz
+        md5sum: 956d4a0cf144e8aba37ffc84310567ff
+    -   name: BC_L3_S3_F_S4_L001_R2_001.fastq.gz
+        md5sum: 23746a1f991618e6542e909a359b5c16
+    -   name: BC_L4_D3_F_S17_L001_R1_001.fastq.gz
+        md5sum: 58b1546b13b1e3da1db3f6665e5ba637
+    -   name: BC_L4_D3_F_S17_L001_R2_001.fastq.gz
+        md5sum: e950b5cd1eae9131079b166682c10a33
+    -   name: BC_L4_S1_F_S34_L001_R1_001.fastq.gz
+        md5sum: 4fea8c3d5d9d1a16ec42e03e50fb4214
+    -   name: BC_L4_S1_F_S34_L001_R2_001.fastq.gz
+        md5sum: 222edc34af2204582f655f32cd9e4915
+    -   name: BC_L4_S2_F_S13_L001_R1_001.fastq.gz
+        md5sum: 27ce83ffd8d270917638cf1266e608cc
+    -   name: BC_L4_S2_F_S13_L001_R2_001.fastq.gz
+        md5sum: 76b838f52f94f8980e938aac6b49bdf0
+    -   name: BC_L4_S3_F_S25_L001_R1_001.fastq.gz
+        md5sum: 1a429a941be8e69c9e1c66351ed6259c
+    -   name: BC_L4_S3_F_S25_L001_R2_001.fastq.gz
+        md5sum: c42ab629011ea572427dd6bbf3f943e5
+    -   name: BV_C1_D1_F_S132_L001_R1_001.fastq.gz
+        md5sum: 6b1ea4a460c14b8a630297af49705aec
+    -   name: BV_C1_D1_F_S132_L001_R2_001.fastq.gz
+        md5sum: bcbef52885ad05ee1deed1024902be16
+    -   name: BV_C1_D2_F_S133_L001_R1_001.fastq.gz
+        md5sum: bd31bc8e775c2df5c133f22ad606807c
+    -   name: BV_C1_D2_F_S133_L001_R2_001.fastq.gz
+        md5sum: cc7b5500cd39fc65d9212e1f76dd3734
+    -   name: BV_C1_D3_F_S134_L001_R1_001.fastq.gz
+        md5sum: f9922b325f030d85076c2c15187015ee
+    -   name: BV_C1_D3_F_S134_L001_R2_001.fastq.gz
+        md5sum: 5b7966282da255f7a9358681012a110f
+    -   name: BV_C1_S1_F_S129_L001_R1_001.fastq.gz
+        md5sum: 4621e345310160ecab5e9175d3bc79c6
+    -   name: BV_C1_S1_F_S129_L001_R2_001.fastq.gz
+        md5sum: 87300f577496506a1d61fe53562de091
+    -   name: BV_C1_S2_F_S130_L001_R1_001.fastq.gz
+        md5sum: 65e50699ec5fb8e69b0fc8dd021369d6
+    -   name: BV_C1_S2_F_S130_L001_R2_001.fastq.gz
+        md5sum: a9cdf3e7cb7b62e4caf28e68c31f52b2
+    -   name: BV_C1_S3_F_S131_L001_R1_001.fastq.gz
+        md5sum: f8316f58dc7c85b39a11b067f63238c4
+    -   name: BV_C1_S3_F_S131_L001_R2_001.fastq.gz
+        md5sum: c1e63eb108f53f0a719397b9c974ac25
+    -   name: BV_C2_D1_F_S150_L001_R1_001.fastq.gz
+        md5sum: 9a334661abebed960d2486bc4b5d0a59
+    -   name: BV_C2_D1_F_S150_L001_R2_001.fastq.gz
+        md5sum: 8787d1e3e4454ac9e88750f6b5ebec51
+    -   name: BV_C2_D2_F_S151_L001_R1_001.fastq.gz
+        md5sum: f76534c42a79895dc9bb06fc06c80368
+    -   name: BV_C2_D2_F_S151_L001_R2_001.fastq.gz
+        md5sum: d0f4553252fb7a56b204e7e615e4ec0a
+    -   name: BV_C2_S1_F_S147_L001_R1_001.fastq.gz
+        md5sum: fdc829b49a9739bf6eef803f6f571a68
+    -   name: BV_C2_S1_F_S147_L001_R2_001.fastq.gz
+        md5sum: cbdf2e8e38b3f2701ba55b6a3d6fcba4
+    -   name: BV_C2_S2_F_S148_L001_R1_001.fastq.gz
+        md5sum: 77ecece04c7be89ce7d3f216ba843830
+    -   name: BV_C2_S2_F_S148_L001_R2_001.fastq.gz
+        md5sum: 495ee6708b12579525b4c33844a16545
+    -   name: BV_C2_S3_F_S149_L001_R1_001.fastq.gz
+        md5sum: a8de947fc29eaca8a2445fd50b480dd7
+    -   name: BV_C2_S3_F_S149_L001_R2_001.fastq.gz
+        md5sum: 7c0ae712a5a7ef466a1f090ca779a5e7
+    -   name: BV_H1_D1_F_S105_L001_R1_001.fastq.gz
+        md5sum: d675b5dded9131ad8c7bef8d638dbac4
+    -   name: BV_H1_D1_F_S105_L001_R2_001.fastq.gz
+        md5sum: 9829277daf02f473de783c64cf896ee1
+    -   name: BV_H1_D2_F_S120_L001_R1_001.fastq.gz
+        md5sum: 171e382bb142df9f754d1638b341a301
+    -   name: BV_H1_D2_F_S120_L001_R2_001.fastq.gz
+        md5sum: 743504282524630417db9fd6928518ef
+    -   name: BV_H1_D3_F_S121_L001_R1_001.fastq.gz
+        md5sum: 9340457fe10f15172899be1f725d5e9a
+    -   name: BV_H1_D3_F_S121_L001_R2_001.fastq.gz
+        md5sum: 62c295cfed0a088120b86e496f7ccea9
+    -   name: BV_H1_S1_F_S102_L001_R1_001.fastq.gz
+        md5sum: 6d3f80f1cb22db41db0d8f7d5a962382
+    -   name: BV_H1_S1_F_S102_L001_R2_001.fastq.gz
+        md5sum: d3172fd192ed2f456dfd99c410518f9b
+    -   name: BV_H1_S2_F_S103_L001_R1_001.fastq.gz
+        md5sum: 1f56de1dbe184776850e8fb34abb524e
+    -   name: BV_H1_S2_F_S103_L001_R2_001.fastq.gz
+        md5sum: 5ae4c75383b2322b765fe0ff254357c4
+    -   name: BV_H1_S3_F_S104_L001_R1_001.fastq.gz
+        md5sum: 220715154e05c4ca02e01ff6a1016ba3
+    -   name: BV_H1_S3_F_S104_L001_R2_001.fastq.gz
+        md5sum: f50c187d2b70edeb2eced9a3d009efb2
+    -   name: BV_H2_D1_F_S138_L001_R1_001.fastq.gz
+        md5sum: f6dc74630a00a73846d74adf9699dcc0
+    -   name: BV_H2_D1_F_S138_L001_R2_001.fastq.gz
+        md5sum: fcf5ffe9c45fd111882126d27b677d5a
+    -   name: BV_H2_D2_F_S139_L001_R1_001.fastq.gz
+        md5sum: 2664350c5ff8363ac7e0bfd13ae2affc
+    -   name: BV_H2_D2_F_S139_L001_R2_001.fastq.gz
+        md5sum: ad0c4d4caf52ea9953b19db7e0546e62
+    -   name: BV_H2_D3_F_S140_L001_R1_001.fastq.gz
+        md5sum: 49f37c2908b4a0deb46ad474f0ba8339
+    -   name: BV_H2_D3_F_S140_L001_R2_001.fastq.gz
+        md5sum: c58eecdfc7f328daaa8ddd83b4e93b86
+    -   name: BV_H2_S1_F_S135_L001_R1_001.fastq.gz
+        md5sum: 1513e0704d538988518effa28d78170b
+    -   name: BV_H2_S1_F_S135_L001_R2_001.fastq.gz
+        md5sum: 78639cf84475e8a2e8079dd8d1c5a366
+    -   name: BV_H2_S2_F_S136_L001_R1_001.fastq.gz
+        md5sum: 7400e24bb0946d194fccc9138cec3ed5
+    -   name: BV_H2_S2_F_S136_L001_R2_001.fastq.gz
+        md5sum: 05c1818604d118bc0373b6e6421ba2e5
+    -   name: BV_H2_S3_F_S137_L001_R1_001.fastq.gz
+        md5sum: aae12c883516b69b36fdb2719c0e142d
+    -   name: BV_H2_S3_F_S137_L001_R2_001.fastq.gz
+        md5sum: f76670ea958065844474a456fbb01c3b
+    -   name: BV_L1_D1_F_S126_L001_R1_001.fastq.gz
+        md5sum: 2c4c2b8702a2509d3cfee775fa75437c
+    -   name: BV_L1_D1_F_S126_L001_R2_001.fastq.gz
+        md5sum: dcac3c5c2c58b1da2cb5d57c8a8afb64
+    -   name: BV_L1_D2_F_S127_L001_R1_001.fastq.gz
+        md5sum: 01ee16aaf63d173a40d03f53362f0667
+    -   name: BV_L1_D2_F_S127_L001_R2_001.fastq.gz
+        md5sum: 2f335d0f0c433c44a7855bb30ac0ce5d
+    -   name: BV_L1_D3_F_S128_L001_R1_001.fastq.gz
+        md5sum: 7e051006b5e2e9875b79be32ad3c9a05
+    -   name: BV_L1_D3_F_S128_L001_R2_001.fastq.gz
+        md5sum: aff507c621c3edfd3c246efbd4a4d0a0
+    -   name: BV_L1_S1_F_S122_L001_R1_001.fastq.gz
+        md5sum: 74651d2260a3fdc14ecd1b8e93aea3f2
+    -   name: BV_L1_S1_F_S122_L001_R2_001.fastq.gz
+        md5sum: a734f1f1180ab3c5c6cb6605b9b4bc25
+    -   name: BV_L1_S2_F_S123_L001_R1_001.fastq.gz
+        md5sum: ddc78e568832fe81abbe578a5f9e02b5
+    -   name: BV_L1_S2_F_S123_L001_R2_001.fastq.gz
+        md5sum: 763b36e8462051ab6328f80092e8fc9f
+    -   name: BV_L1_S3_F_S125_L001_R1_001.fastq.gz
+        md5sum: 70ef77845a4d177aca43482447fdaa63
+    -   name: BV_L1_S3_F_S125_L001_R2_001.fastq.gz
+        md5sum: 738410560a95ad656e5470275f03083b
+    -   name: BV_L2_D1_F_S144_L001_R1_001.fastq.gz
+        md5sum: d0e0785f91f37d83e67c73d116ec299c
+    -   name: BV_L2_D1_F_S144_L001_R2_001.fastq.gz
+        md5sum: 3a9d173141ae5b50fc1db4e59d6aa4c0
+    -   name: BV_L2_D2_F_S145_L001_R1_001.fastq.gz
+        md5sum: df45c99f21c62e68a76d71ae1dae6fc7
+    -   name: BV_L2_D2_F_S145_L001_R2_001.fastq.gz
+        md5sum: 94a797223aa2ff665f9d296946c9e000
+    -   name: BV_L2_D3_F_S146_L001_R1_001.fastq.gz
+        md5sum: c7535c41ad8669b9d8cc73864e79afce
+    -   name: BV_L2_D3_F_S146_L001_R2_001.fastq.gz
+        md5sum: ca076ad6556aa402add0748c84f677ad
+    -   name: BV_L2_S1_F_S141_L001_R1_001.fastq.gz
+        md5sum: b0a589748a52b074f1615198140a8a4a
+    -   name: BV_L2_S1_F_S141_L001_R2_001.fastq.gz
+        md5sum: 6cfc9fa4c6f376e2a0731fdcd7151cd0
+    -   name: BV_L2_S2_F_S142_L001_R1_001.fastq.gz
+        md5sum: 2c7bac8db37e2458112d340c26a0654d
+    -   name: BV_L2_S2_F_S142_L001_R2_001.fastq.gz
+        md5sum: dd90e83ba874909d28a44a62a4575d7d
+    -   name: BV_L2_S3_F_S143_L001_R1_001.fastq.gz
+        md5sum: 3d50080219e1e3c29d2ead9329477a99
+    -   name: BV_L2_S3_F_S143_L001_R2_001.fastq.gz
+        md5sum: e7b17f402543823e7b979c6737808b10
+    -   name: CP_H3_D1_F_S115_L001_R1_001.fastq.gz
+        md5sum: ef256870085abf83ab7dacc30e108668
+    -   name: CP_H3_D1_F_S115_L001_R2_001.fastq.gz
+        md5sum: 882466b510a032feb08999fe284e2182
+    -   name: CP_H3_D2_F-1_S116_L001_R1_001.fastq.gz
+        md5sum: 8cda21a37a1396933608cca6259a0a5b
+    -   name: CP_H3_D2_F-1_S116_L001_R2_001.fastq.gz
+        md5sum: 7d92db45ca30b5e40d2c340266f13966
+    -   name: CP_H3_D2_F-2_S117_L001_R1_001.fastq.gz
+        md5sum: ccd11e0507440ae731b02be6ccdf27a3
+    -   name: CP_H3_D2_F-2_S117_L001_R2_001.fastq.gz
+        md5sum: b43b05e9cf185db1bd676251b133c922
+    -   name: CP_H3_S1_F_S112_L001_R1_001.fastq.gz
+        md5sum: 0b35be0471f3391de40c0b3b89674d05
+    -   name: CP_H3_S1_F_S112_L001_R2_001.fastq.gz
+        md5sum: 8f13c1c049d246993fc1326e7d165777
+    -   name: CP_H3_S2_F_S113_L001_R1_001.fastq.gz
+        md5sum: cdb14e12eb8977c1452133fe46534bdf
+    -   name: CP_H3_S2_F_S113_L001_R2_001.fastq.gz
+        md5sum: 944f1ed5fe2fd818ceb48d3591c8a19c
+    -   name: CP_H3_S3_F_S114_L001_R1_001.fastq.gz
+        md5sum: 400bcc96c7f3754e2313a029d5cde2da
+    -   name: CP_H3_S3_F_S114_L001_R2_001.fastq.gz
+        md5sum: 2d464c5feab18247bf24ef439cf03e2e
+    -   name: CP_L3_D1_F_S109_L001_R1_001.fastq.gz
+        md5sum: 0b36250cf54e607e3adafe9090367cf9
+    -   name: CP_L3_D1_F_S109_L001_R2_001.fastq.gz
+        md5sum: 3a878a6ebec9820f791730886772309a
+    -   name: CP_L3_D2_F-1_S110_L001_R1_001.fastq.gz
+        md5sum: fd10d35cc5630a06fdc15fb81f4080fd
+    -   name: CP_L3_D2_F-1_S110_L001_R2_001.fastq.gz
+        md5sum: 5fa75c65852113452833267eae58dca2
+    -   name: CP_L3_D2_F-2_S111_L001_R1_001.fastq.gz
+        md5sum: 6f87c8098bc0555158c981f07713a21e
+    -   name: CP_L3_D2_F-2_S111_L001_R2_001.fastq.gz
+        md5sum: 2ef8894a2fc4f1ab9ab51a61b9f12e4c
+    -   name: CP_L3_S2_F_S107_L001_R1_001.fastq.gz
+        md5sum: b7097177de964c58e50fca054345bb8a
+    -   name: CP_L3_S2_F_S107_L001_R2_001.fastq.gz
+        md5sum: 68f5d44d048822329a6e8690c66e2270
+    -   name: CP_L3_S3_F_S108_L001_R1_001.fastq.gz
+        md5sum: ca0f30b12799fa6f83778fe0c7b322e6
+    -   name: CP_L3_S3_F_S108_L001_R2_001.fastq.gz
+        md5sum: 7219d6136a916b0153ac59f8e9f85f8c
+    -   name: Ext_Blank10_F_S118_L001_R1_001.fastq.gz
+        md5sum: cf8b70494adc7f591fd05db2a3da3034
+    -   name: Ext_Blank10_F_S118_L001_R2_001.fastq.gz
+        md5sum: 75081b32568adc33b446bfc18ab08bce
+    -   name: Ext_Blank1_F_S11_L001_R1_001.fastq.gz
+        md5sum: eac4ecd444221e23fc562df1fbd56bc8
+    -   name: Ext_Blank1_F_S11_L001_R2_001.fastq.gz
+        md5sum: 98a5fadc68deb58cb5baa988872fefd3
+    -   name: Ext_Blank2_F_S36_L001_R1_001.fastq.gz
+        md5sum: 5162c54ddc3c4578ef6aed582266ed20
+    -   name: Ext_Blank2_F_S36_L001_R2_001.fastq.gz
+        md5sum: 94593536f93e304e731ccf27241be0bd
+    -   name: Ext_Blank3_F_S51_L001_R1_001.fastq.gz
+        md5sum: d8f22613ad78c91a46b098c9a0eb859b
+    -   name: Ext_Blank3_F_S51_L001_R2_001.fastq.gz
+        md5sum: 0546391fba4511d1bb0b31f9836b521e
+    -   name: Ext_Blank4_F_S62_L001_R1_001.fastq.gz
+        md5sum: 071d668fd17130accf3813e87c1adf65
+    -   name: Ext_Blank4_F_S62_L001_R2_001.fastq.gz
+        md5sum: b7e1892d44ecf19edb7c492f0fe6f37a
+    -   name: Ext_Blank5_F_S89_L001_R1_001.fastq.gz
+        md5sum: 55301c7a481cb5446b33033be92f385d
+    -   name: Ext_Blank5_F_S89_L001_R2_001.fastq.gz
+        md5sum: 8f475a0c5d186aee9a1ffd52385a9533
+    -   name: Ext_Blank7_F_S124_L001_R1_001.fastq.gz
+        md5sum: aedf47810d63bebdcfd75857948fd864
+    -   name: Ext_Blank7_F_S124_L001_R2_001.fastq.gz
+        md5sum: f0e23693207524aa157b0e64887d8e30
+    -   name: M_C1_D1_F_S81_L001_R1_001.fastq.gz
+        md5sum: 3d6e5c7fcd6c46010b1e5dd56ebaf2f1
+    -   name: M_C1_D1_F_S81_L001_R2_001.fastq.gz
+        md5sum: fff55ff9520f2b70d310a6a5d3d23d53
+    -   name: M_C1_D2_F_S82_L001_R1_001.fastq.gz
+        md5sum: ddefe097f179b69aa2fec7fa23c58342
+    -   name: M_C1_D2_F_S82_L001_R2_001.fastq.gz
+        md5sum: 0f87fbc00c2e626b84c72502fb671091
+    -   name: M_C1_D3_F_S83_L001_R1_001.fastq.gz
+        md5sum: 4d09dfc5c57f9923e4c9e1b1b53c8074
+    -   name: M_C1_D3_F_S83_L001_R2_001.fastq.gz
+        md5sum: 2a3b576038d7b969b80c7d9ef0a7f459
+    -   name: M_C1_S1_F_S78_L001_R1_001.fastq.gz
+        md5sum: 37b208864b8554b0868eeca20d3274d6
+    -   name: M_C1_S1_F_S78_L001_R2_001.fastq.gz
+        md5sum: 8b0e2a8342c9180c8d9614ea71ac5170
+    -   name: M_C1_S2_F_S79_L001_R1_001.fastq.gz
+        md5sum: 9c60f0aa429603d55ad95fafb0d015d3
+    -   name: M_C1_S2_F_S79_L001_R2_001.fastq.gz
+        md5sum: 5d919f174e1dac4027df164f4ad38b4e
+    -   name: M_C1_S3_F_S80_L001_R1_001.fastq.gz
+        md5sum: 71d02254465bf2194edc1923784ed4cb
+    -   name: M_C1_S3_F_S80_L001_R2_001.fastq.gz
+        md5sum: fea3464d8ef5a56cfe2a36e154a23d8b
+    -   name: M_C2_D1_F_S70_L001_R1_001.fastq.gz
+        md5sum: 7f5e2e28b23c6171ec5d5649ecb1141e
+    -   name: M_C2_D1_F_S70_L001_R2_001.fastq.gz
+        md5sum: 0dced108d85be65dfa950303a3c92c32
+    -   name: M_C2_D2_F_S71_L001_R1_001.fastq.gz
+        md5sum: fe99b14765102ffa54ea7de98cffb639
+    -   name: M_C2_D2_F_S71_L001_R2_001.fastq.gz
+        md5sum: 79bd64c01cec96b8456d01938b885d7f
+    -   name: M_C2_D3_F_S72_L001_R1_001.fastq.gz
+        md5sum: 1ba4d30ea48e8a8271abd09b14f17026
+    -   name: M_C2_D3_F_S72_L001_R2_001.fastq.gz
+        md5sum: 6a8c6b780a7721a9416db314020e2ead
+    -   name: M_C2_S1_F_S67_L001_R1_001.fastq.gz
+        md5sum: e292c7f356651ba9719bfabf5ae35984
+    -   name: M_C2_S1_F_S67_L001_R2_001.fastq.gz
+        md5sum: 2053193078c2ff44bfb29346974f9ab5
+    -   name: M_C2_S2_F_S68_L001_R1_001.fastq.gz
+        md5sum: 8f97cac5a446f9fef2a0e9f15ced4904
+    -   name: M_C2_S2_F_S68_L001_R2_001.fastq.gz
+        md5sum: e4e567aee99f27340f1387ea99c29d28
+    -   name: M_C2_S3_F_S69_L001_R1_001.fastq.gz
+        md5sum: 8a158627dcfa136c74b21a042c7ac2bb
+    -   name: M_C2_S3_F_S69_L001_R2_001.fastq.gz
+        md5sum: df97bcf5a0bdfcc4ec58f2e2345427c3
+    -   name: M_C3_S1_F_S64_L001_R1_001.fastq.gz
+        md5sum: 1c145c14ad3f987d7de85240b1588189
+    -   name: M_C3_S1_F_S64_L001_R2_001.fastq.gz
+        md5sum: b740a603c593bc0b9c169ac52be0d272
+    -   name: M_C3_S2_F_S65_L001_R1_001.fastq.gz
+        md5sum: ed6b1bcfb707fe86b7514a36e62c7b48
+    -   name: M_C3_S2_F_S65_L001_R2_001.fastq.gz
+        md5sum: cc607f6ca972924f61a2cc14cf94917d
+    -   name: M_C3_S3_F_S66_L001_R1_001.fastq.gz
+        md5sum: 82a621ae4de238f8d11dea4b03f7cfda
+    -   name: M_C3_S3_F_S66_L001_R2_001.fastq.gz
+        md5sum: e009243564460e0ce35c0fbfdce4163b
+    -   name: M_H1_D2_F_S73_L001_R1_001.fastq.gz
+        md5sum: cef82924251d673fe34e825b4dd120e3
+    -   name: M_H1_D2_F_S73_L001_R2_001.fastq.gz
+        md5sum: 87d2cdf8050bd7a0d3095614450f5331
+    -   name: M_H1_D3_F_S74_L001_R1_001.fastq.gz
+        md5sum: c9964a1b8ad34f05b11ed3c0dabd4f34
+    -   name: M_H1_D3_F_S74_L001_R2_001.fastq.gz
+        md5sum: bddfec3480144f8fbcc3df2771d369f5
+    -   name: M_H2_D2_F_S52_L001_R1_001.fastq.gz
+        md5sum: ba33cc6278256481ff1f93e26a49b130
+    -   name: M_H2_D2_F_S52_L001_R2_001.fastq.gz
+        md5sum: dd18b976f5cec360ea629452fada31dd
+    -   name: M_L1_D1_F_S76_L001_R1_001.fastq.gz
+        md5sum: 58f88307bc954726e4b8126d408044be
+    -   name: M_L1_D1_F_S76_L001_R2_001.fastq.gz
+        md5sum: e74ed13adcd30751c8a9c7c70759daab
+    -   name: M_L1_D2_F_S77_L001_R1_001.fastq.gz
+        md5sum: 46b6b7e59d9415c1b7f046597672ecca
+    -   name: M_L1_D2_F_S77_L001_R2_001.fastq.gz
+        md5sum: 7f88b0e7404a84ad63b964d78dc82161
+    -   name: M_L1_S2_F_S75_L001_R1_001.fastq.gz
+        md5sum: df3bd7c0ec0786b857b9619b371e3094
+    -   name: M_L1_S2_F_S75_L001_R2_001.fastq.gz
+        md5sum: 237ebad10df3393a888984e1a9752707
+    -   name: M_L2_D1_F_S56_L001_R1_001.fastq.gz
+        md5sum: cae3cff73f9f79fdbeaf552b7bf60a4a
+    -   name: M_L2_D1_F_S56_L001_R2_001.fastq.gz
+        md5sum: 5e0a85fb0df0855a53415ea8deffa4b8
+    -   name: M_L2_D2_F_S58_L001_R1_001.fastq.gz
+        md5sum: 3ea77b0e9858c51a4c2cf84c6971a53b
+    -   name: M_L2_D2_F_S58_L001_R2_001.fastq.gz
+        md5sum: a0a3ea91ddda39bf0ae28771d69ec9de
+    -   name: M_L2_D3_F_S63_L001_R1_001.fastq.gz
+        md5sum: 44f15969eaf45fb6965a835e7252fcc2
+    -   name: M_L2_D3_F_S63_L001_R2_001.fastq.gz
+        md5sum: f213b232633ce53f3c962fafd9f07805
+    -   name: M_L2_S1_F_S53_L001_R1_001.fastq.gz
+        md5sum: 11659052a92b4626c652bc409e7850f2
+    -   name: M_L2_S1_F_S53_L001_R2_001.fastq.gz
+        md5sum: f64d225e1d0f3f9c5210f90cf06923a0
+    -   name: M_L2_S2_F_S54_L001_R1_001.fastq.gz
+        md5sum: 6c57fb18cac72ffafa1e1cea9b459f0a
+    -   name: M_L2_S2_F_S54_L001_R2_001.fastq.gz
+        md5sum: 323fdb351b8031ee304d71c86a560816
+    -   name: M_L3_D1_F_S60_L001_R1_001.fastq.gz
+        md5sum: ef58ba266e24f31cf81206346da32b45
+    -   name: M_L3_D1_F_S60_L001_R2_001.fastq.gz
+        md5sum: 0011815085b62f5bb9e2101f80d12be3
+    -   name: M_L3_D3_F_S61_L001_R1_001.fastq.gz
+        md5sum: 67ddc4ec5fb46e6a371b08a49fad4379
+    -   name: M_L3_D3_F_S61_L001_R2_001.fastq.gz
+        md5sum: fc479e0b21b6b69a612af5a97791ed73
+    -   name: M_L3_S1_F_S55_L001_R1_001.fastq.gz
+        md5sum: 346152d149ebbf2838513dd0ee1d7cbc
+    -   name: M_L3_S1_F_S55_L001_R2_001.fastq.gz
+        md5sum: 443ac5d06bb3c58f3dd05e551c30df62
+    -   name: M_L3_S3_F_S57_L001_R1_001.fastq.gz
+        md5sum: 83fda27db86586729e25c31255d8890d
+    -   name: M_L3_S3_F_S57_L001_R2_001.fastq.gz
+        md5sum: faaabda8e60cdeb03e27d4a352efe74d
+    -   name: PCR_Blank1_F_S59_L001_R1_001.fastq.gz
+        md5sum: f207872f1272cf19f03dc208899d154f
+    -   name: PCR_Blank1_F_S59_L001_R2_001.fastq.gz
+        md5sum: 2e92921b89e109c8baede118b6fcefa4
+    -   name: PCR_Blank2_F_S106_L001_R1_001.fastq.gz
+        md5sum: 64cf05a1e5ded1640487338c74b86b34
+    -   name: PCR_Blank2_F_S106_L001_R2_001.fastq.gz
+        md5sum: 8cfe70c881c0e1de8d09df8bcba4eba5
+    -   name: PCR_Blank3_F_S119_L001_R1_001.fastq.gz
+        md5sum: 46b5efa4f6135cde5db3bc8fcae44d91
+    -   name: PCR_Blank3_F_S119_L001_R2_001.fastq.gz
+        md5sum: b1fd524aa38cb9256c9b69920f175f18
+    -   name: R_C1_S1_F_S84_L001_R1_001.fastq.gz
+        md5sum: dca2ebbc761e962596555b9f017de995
+    -   name: R_C1_S1_F_S84_L001_R2_001.fastq.gz
+        md5sum: 5708c8264ee7be9412353ed22abd089c
+    -   name: R_C1_S2_F_S85_L001_R1_001.fastq.gz
+        md5sum: 299de0b755ccbcc08bfe802e9a68c8f4
+    -   name: R_C1_S2_F_S85_L001_R2_001.fastq.gz
+        md5sum: 268c23b3aae7bacd1ae7e7df3cd10837
+    -   name: R_C1_S3_F_S86_L001_R1_001.fastq.gz
+        md5sum: 6c073380b87cbeaf52c17a85931c3760
+    -   name: R_C1_S3_F_S86_L001_R2_001.fastq.gz
+        md5sum: 3b89a1ec38a89ff7d7ad4f831d1f374e
+    -   name: R_C2_S1_F_S90_L001_R1_001.fastq.gz
+        md5sum: 0de28193222d300b6208ce304f6d3d0e
+    -   name: R_C2_S1_F_S90_L001_R2_001.fastq.gz
+        md5sum: c44581986b5d06fc12022e54e41b108f
+    -   name: R_C2_S2_F_S91_L001_R1_001.fastq.gz
+        md5sum: a2042ba1b21c82a30a60ba97001eddaa
+    -   name: R_C2_S2_F_S91_L001_R2_001.fastq.gz
+        md5sum: b0d99e7d5777380fc3137c9f732b25f2
+    -   name: R_C2_S3_F_S92_L001_R1_001.fastq.gz
+        md5sum: c167fdb7be7da990ba224fccc874e9f4
+    -   name: R_C2_S3_F_S92_L001_R2_001.fastq.gz
+        md5sum: e5a2ea6844cf073569fc01fddd577d17
+    -   name: R_C3_D1_F_S101_L001_R1_001.fastq.gz
+        md5sum: 6f40325d1bdaf4462c341d2abab5f1bc
+    -   name: R_C3_D1_F_S101_L001_R2_001.fastq.gz
+        md5sum: d0995be252c69b1ea202e7e0b5ddd1ca
+    -   name: R_C3_S1_F_S98_L001_R1_001.fastq.gz
+        md5sum: b50e0ff9daa887e6615a05a0cad23f7e
+    -   name: R_C3_S1_F_S98_L001_R2_001.fastq.gz
+        md5sum: 42cf1fcec7fb73d6373a88a522a0d40a
+    -   name: R_C3_S2_F_S99_L001_R1_001.fastq.gz
+        md5sum: 5e2ce6f8fcc64261e0190103bdb8109f
+    -   name: R_C3_S2_F_S99_L001_R2_001.fastq.gz
+        md5sum: 895b93df872efc84fbc8dda45c740993
+    -   name: R_C3_S3_F_S100_L001_R1_001.fastq.gz
+        md5sum: 7faad4cc966d7af1a2755afd688cd4c7
+    -   name: R_C3_S3_F_S100_L001_R2_001.fastq.gz
+        md5sum: 189a0a0c0afeaee525b06f9557d4305b
+    -   name: R_H3_S2_F_S93_L001_R1_001.fastq.gz
+        md5sum: 76aba89306221a2a8a48a05d1f2fdde5
+    -   name: R_H3_S2_F_S93_L001_R2_001.fastq.gz
+        md5sum: 15040a818cc81548d44696691c2b727b
+    -   name: R_L1_D1_F_S87_L001_R1_001.fastq.gz
+        md5sum: 555d2cddf294a66461b4ac06a610213f
+    -   name: R_L1_D1_F_S87_L001_R2_001.fastq.gz
+        md5sum: 6522f349fd85e1ef3951b2db8b273074
+    -   name: R_L1_S1_F_S88_L001_R1_001.fastq.gz
+        md5sum: 83cc0120525cb8e40c1186f33312e32b
+    -   name: R_L1_S1_F_S88_L001_R2_001.fastq.gz
+        md5sum: 1703ccbb8e043e07ff2e8f547feaba33
+    -   name: R_L3_D2_F_S96_L001_R1_001.fastq.gz
+        md5sum: 40acff112a482218a9c23976731aaf81
+    -   name: R_L3_D2_F_S96_L001_R2_001.fastq.gz
+        md5sum: 1b3da54de4b8d7f402ac9395a404ccb5
+    -   name: R_L3_D3_F_S97_L001_R1_001.fastq.gz
+        md5sum: d8cbcf1610edf52fa318bcdb926d7747
+    -   name: R_L3_D3_F_S97_L001_R2_001.fastq.gz
+        md5sum: be106dee8d6faa92bc1da33ad94a0ab3
+    -   name: R_L3_S2_F_S94_L001_R1_001.fastq.gz
+        md5sum: 03342282386d75b37870dd1ff751e500
+    -   name: R_L3_S2_F_S94_L001_R2_001.fastq.gz
+        md5sum: d42b4a3737a84de22c673e119459c297
+    -   name: R_L3_S3_F_S95_L001_R1_001.fastq.gz
+        md5sum: c4200a6cb820fb00bd32ca936fc95792
+    -   name: R_L3_S3_F_S95_L001_R2_001.fastq.gz
+        md5sum: ccef16eab7ec1d30fd1128ad4f6693e7
+
+transformers:
+    output:
+    -   from: CasavaOneEightSingleLanePerSampleDirFmt
+        to: SingleLanePerSamplePairedEndFastqDirFmt
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.10 | packaged by conda-forge | (default, Apr 24 2020, 16:44:11)
+        [GCC 7.3.0]
+    framework:
+        version: 2020.8.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2020.8.0|0'
+    plugins:
+        types:
+            version: 2020.8.0
+            website: https://github.com/qiime2/q2-types
+    python-packages:
+        zipp: 3.1.0
+        xopen: 0.9.0
+        widgetsnbextension: 3.5.1
+        wheel: 0.35.1
+        webencodings: 0.5.1
+        wcwidth: 0.2.5
+        urllib3: 1.25.10
+        unifrac: 0.10.0
+        tzlocal: '2.1'
+        typing-extensions: 3.7.4.2
+        traitlets: 4.3.3
+        tornado: 6.0.4
+        toml: 0.10.1
+        threadpoolctl: 2.1.0
+        testpath: 0.4.4
+        terminado: 0.8.3
+        statsmodels: 0.11.1
+        six: 1.15.0
+        setuptools: 49.6.0.post20210108
+        sepp: 4.3.10
+        Send2Trash: 1.5.0
+        seaborn: 0.10.1
+        scipy: 1.5.2
+        scikit-learn: 0.23.1
+        scikit-bio: 0.5.5
+        requests: 2.24.0
+        qiime2: 2020.8.0
+        q2templates: 2020.8.0
+        q2cli: 2020.8.0
+        q2-vsearch: 2020.8.0
+        q2-types: 2020.8.0
+        q2-taxa: 2020.8.0
+        q2-sample-classifier: 2020.8.0
+        q2-quality-filter: 2020.8.0
+        q2-quality-control: 2020.8.0
+        q2-phylogeny: 2020.8.0
+        q2-metadata: 2020.8.0
+        q2-longitudinal: 2020.8.0
+        q2-gneiss: 2020.8.0
+        q2-fragment-insertion: 2020.8.0
+        q2-feature-table: 2020.8.0
+        q2-feature-classifier: 2020.8.0
+        q2-emperor: 2020.8.0
+        q2-diversity: 2020.8.0
+        q2-diversity-lib: 2020.8.0
+        q2-demux: 2020.8.0
+        q2-deblur: 2020.8.0
+        q2-dada2: 2020.8.0
+        q2-cutadapt: 2020.8.0
+        q2-composition: 2020.8.0
+        q2-alignment: 2020.8.0
+        pyzmq: 19.0.2
+        PyYAML: 5.3.1
+        pytz: '2020.1'
+        python-dateutil: 2.8.1
+        pytest: 6.0.1
+        PySocks: 1.7.1
+        pyrsistent: 0.16.0
+        pyparsing: 2.4.7
+        pyOpenSSL: 19.1.0
+        Pygments: 2.6.1
+        pycparser: '2.20'
+        py: 1.9.0
+        ptyprocess: 0.6.0
+        psutil: 5.7.2
+        prompt-toolkit: 3.0.6
+        prometheus-client: 0.8.0
+        pluggy: 0.13.1
+        pip: 20.2.2
+        Pillow: 7.2.0
+        pickleshare: 0.7.5
+        pexpect: 4.8.0
+        patsy: 0.5.1
+        parso: 0.7.1
+        pandocfilters: 1.4.2
+        pandas: 0.25.3
+        packaging: '20.4'
+        olefile: '0.46'
+        numpy: 1.19.1
+        notebook: 6.1.3
+        nose: 1.3.7
+        networkx: '2.4'
+        nbformat: 5.0.7
+        nbconvert: 5.6.1
+        natsort: 7.0.1
+        msgpack: 1.0.0
+        more-itertools: 8.4.0
+        mistune: 0.8.4
+        matplotlib: 3.2.2
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.2.0
+        jupyter-core: 4.6.3
+        jupyter-client: 6.1.6
+        jsonschema: 3.2.0
+        joblib: 0.16.0
+        Jinja2: 2.11.2
+        jedi: 0.17.2
+        ipywidgets: 7.5.1
+        ipython: 7.16.1
+        ipython-genutils: 0.2.0
+        ipykernel: 5.3.4
+        iniconfig: 1.0.1
+        importlib-metadata: 1.7.0
+        ijson: 3.1.1
+        idna: '2.10'
+        hdmedians: '0.13'
+        h5py: 2.10.0
+        gneiss: 0.4.6
+        future: 0.18.2
+        fastcluster: 1.1.26
+        entrypoints: '0.3'
+        emperor: 1.0.1
+        dnaio: 0.4.2
+        DendroPy: 4.4.0
+        defusedxml: 0.6.0
+        decorator: 4.4.2
+        deblur: 1.1.0
+        Cython: 0.29.21
+        cycler: 0.10.0
+        cutadapt: '2.10'
+        cryptography: '3.0'
+        click: 7.1.2
+        chardet: 3.0.4
+        cffi: 1.14.1
+        certifi: 2020.6.20
+        CacheControl: 0.12.6
+        brotlipy: 0.7.0
+        bokeh: 2.1.1
+        bleach: 3.1.5
+        biom-format: 2.1.8
+        bibtexparser: 1.1.0
+        backports.functools-lru-cache: 1.6.1
+        backcall: 0.2.0
+        attrs: 20.1.0
+        argon2-cffi: 20.1.0
